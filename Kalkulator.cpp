@@ -4,40 +4,48 @@ using namespace std;
 
 int main()
 {
-	float a, b, hasil;
-	char aritmatika;
+	float num1, num2, result = 0;
+	char operation;
 
-	cout << "Selamat datang di program kalkulator\n\n";
+	cout << "Kalkulator" << endl << endl;
 
-	// memasukan input dari user
+	// Input num1
 	cout << "Masukan nilai pertama : ";
-	cin >> a;
-	cout << "Pilih operator +, -, *, / : ";
-	cin >> aritmatika;
+	cin >> num1;
+
+	// Input operation
+	cout << "Operasi +, -, *, / : ";
+	cin >> operation;
+
+	// Input num2
 	cout << "Masukan nilai kedua : ";
-	cin >> b;
-	cout << endl;
-	cout << "Hasil perhitungan : ";
-	cout << a << aritmatika << b;
+	cin >> num2;
 
-	if (aritmatika == '+') {
-		hasil = a + b;
+	if (operation == '+')
+	{
+		result = num1 + num2;
 	}
-	else if (aritmatika == '-') {
-		hasil = a - b;
+	else if (operation == '-')
+	{
+		result = num1 - num2;
 	}
-	else if (aritmatika == '*') {
-		hasil = a * b;
+	else if (operation == '*')
+	{
+		result = num1 * num2;
 	}
-	else if (aritmatika == '/') {
-		hasil = a / b;
+	else if (operation == '/')
+	{
+		result = num1 / num2;
 	}
-	else {
-		cout << "Operator yang anda masukan salah" << endl;
+	else
+	{
+		cout << "Operasi Tidak Valid!" << endl;
+		return 0;
 	}
 
-	cout << " = " << hasil << endl;
+	cout << "Hasil : ";
+	cout << num1 << operation << num2;
+	cout << " = " << result << endl;
 
-	cin.get();
 	return 0;
 }
