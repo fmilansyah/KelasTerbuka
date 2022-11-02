@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int Kalkulator()
 {
 	float num1, num2, result = 0;
 	char operation;
