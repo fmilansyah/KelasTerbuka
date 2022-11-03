@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int AssignmentOperator() {
 	int x = 10;
 
 	cout << "Nilai awal x = " << x << endl;
