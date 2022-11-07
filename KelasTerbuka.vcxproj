@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DoWhile.cpp" />
     <ClCompile Include="IncrementDecrement.cpp" />
     <ClCompile Include="Kalkulator.cpp" />
     <ClCompile Include="AssignmentOperator.cpp" />
