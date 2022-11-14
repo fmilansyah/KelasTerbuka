@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DoWhile.cpp" />
+    <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="ForLoop.cpp" />
     <ClCompile Include="IncrementDecrement.cpp" />
     <ClCompile Include="Kalkulator.cpp" />
