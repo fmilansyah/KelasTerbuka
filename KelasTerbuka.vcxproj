@@ -147,6 +147,7 @@
     <ClCompile Include="Kalkulator.cpp" />
     <ClCompile Include="AssignmentOperator.cpp" />
     <ClCompile Include="ContinueBreak.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="WhileLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
