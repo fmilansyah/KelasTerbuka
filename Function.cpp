@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int FunctionIntro() {
 	int x;
 
 	cout << "Menghitung akar dari x : ";
