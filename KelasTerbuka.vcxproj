@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dice.cpp" />
     <ClCompile Include="DoWhile.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="ForLoop.cpp" />
