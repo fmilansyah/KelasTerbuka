@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int Dice() {
 	char lanjut;
 	while (true) {
 		cout << "Lempar Dadu? (y/n) : ";
