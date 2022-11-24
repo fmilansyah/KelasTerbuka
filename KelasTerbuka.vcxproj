@@ -145,6 +145,7 @@
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="ForLoop.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="FunctionReturn.cpp" />
     <ClCompile Include="IncrementDecrement.cpp" />
     <ClCompile Include="Kalkulator.cpp" />
     <ClCompile Include="AssignmentOperator.cpp" />
