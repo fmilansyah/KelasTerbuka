@@ -51,5 +51,8 @@
     <ClCompile Include="FunctionReturn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VoidFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
